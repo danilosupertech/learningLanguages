@@ -18,11 +18,6 @@
 
 - **Recursos permitidos:** `input()`, `float()`, operadores aritméticos.
 
-- ```
-A média é 8.0
-```
-
-
 ---
 
 ## 03_conversao_temperatura.py
