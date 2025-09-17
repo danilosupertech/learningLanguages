@@ -1,15 +1,35 @@
-# 📊 Tabela Comparativa — Dia 1 (Números e Strings Básicas)
+# 📘 Dia 1 — Números e Strings Básicas
 
-| Conceito              | Python                                    | C                                                | JavaScript                                       | TypeScript                                  |
-|-----------------------|-------------------------------------------|--------------------------------------------------|--------------------------------------------------|---------------------------------------------|
-| **Número inteiro**    | `x = 10` (tipo `int`)                    | `int x = 10;`                                   | `let x = 10;` (`Number`)                        | `let x: number = 10;`                       |
-| **Número decimal**    | `y = 3.14` (tipo `float`)                | `float y = 3.14;` ou `double y = 3.14;`         | `let y = 3.14;` (`Number`)                      | `let y: number = 3.14;`                     |
-| **Divisão inteira**   | `7 // 2 → 3`                             | `7 / 2` com `int` → `3`                         | `Math.floor(7/2)` → `3`                         | `Math.floor(7/2)` → `3`                     |
-| **Divisão real**      | `7 / 2 → 3.5`                            | `7.0 / 2.0 → 3.5`                               | `7 / 2 → 3.5`                                   | `7 / 2 → 3.5`                               |
-| **Precisão/overflow** | `float` perde precisão; `decimal` corrige | Overflow em `int` (`limits.h`)                  | `Number.MAX_SAFE_INTEGER` limita precisão       | `bigint` para inteiros grandes              |
-| **String simples**    | `"Olá"`                                  | `"Olá"` como `char*`                            | `"Olá"` ou `'Olá'`                              | `let s: string = "Olá";`                    |
-| **Concatenação**      | `"Olá " + "Mundo"`                       | `strcat(s1, s2)` (`<string.h>`)                 | `"Olá " + "Mundo"` ou `` `Olá ${mundo}` ``      | Igual ao JS, mas com tipagem (`string`)     |
-| **Tamanho da string** | `len("Python") → 6`                      | `strlen("Python") → 6`                          | `"Python".length → 6`                           | Igual ao JS                                |
-| **Maiúsculas**        | `"abc".upper()`                          | `strupr(s)` (*não padrão, depende do compilador*) | `"abc".toUpperCase()`                          | Igual ao JS                                |
-| **Inverter string**   | `"Python"[::-1] → "nohtyP"`              | Loop manual decrescente                         | `"Python".split('').reverse().join('')`        | Igual ao JS                                |
-| **Interpolação**      | `f"Olá {nome}"`                          | `printf("Olá %s", nome);`                       | `` `Olá ${nome}` ``                             | Igual ao JS, com tipagem (`string`)         |
+## 📊 Tabela Comparativa — Declaração de Variáveis e Tipos Básicos
+
+| Linguagem   | Formas de declarar variáveis                                                                 | Observações sobre tipos básicos |
+|-------------|-----------------------------------------------------------------------------------------------|---------------------------------|
+| **Python**  | `x = 10` (dinâmico, inferido)<br>`x: int = 10` (type hint, opcional)                         | Tipagem dinâmica, mas pode usar anotações para clareza. `int`, `float`, `str`, `bool`. Strings são imutáveis. |
+| **C**       | `int x = 10;`<br>`float y = 3.14;`<br>`char s[] = "Olá";`<br>Modificadores: `auto`, `register`, `static`, `extern` | Tipagem estática. Inteiros limitados (`int`, `long`, `short`), sujeitos a overflow. `float` e `double` para precisão. Strings manipuladas como `char*`. |
+| **JavaScript** | `var x = 10;` (escopo função/global)<br>`let x = 10;` (escopo bloco)<br>`const x = 10;` (imutável) | Tipagem dinâmica. `Number` único para inteiros e floats (IEEE 754). `BigInt` para inteiros grandes. Strings são imutáveis. |
+| **TypeScript** | `let x: number = 10;`<br>`const y: string = "Olá";`<br>`var z: boolean = true;`           | Tipagem estática opcional e segura. Tipos primitivos: `number`, `bigint`, `string`, `boolean`. Força contratos de tipo. |
+
+---
+
+## 📘 Explicações das Diferenças Relevantes
+
+### 🔹 Inteiros e Floats
+- **Python**: `int` é ilimitado em precisão (cresce conforme memória disponível). `float` segue IEEE 754.  
+- **C**: `int`, `short`, `long` variam em tamanho. Overflow é comum. `float` (32 bits) vs `double` (64 bits).  
+- **JavaScript**: não separa inteiros de floats, tudo é `Number` (precisão até `2^53 - 1`).  
+- **TypeScript**: diferencia explicitamente `number` e `bigint`, trazendo mais clareza.  
+
+### 🔹 Strings
+- **Python/JS/TS**: strings são imutáveis — qualquer modificação gera uma nova string.  
+- **C**: strings são arrays de `char`, manipuláveis, mas exigem cuidado com limites de memória e ponteiros.  
+
+### 🔹 Declaração Implícita vs Explícita
+- **Python**: não exige declaração de tipo, mas pode usar *type hints*.  
+- **C**: exige declaração explícita de tipo para cada variável.  
+- **JavaScript**: dinâmica, tipo inferido.  
+- **TypeScript**: exige ou infere tipos, mas permite reforçar com anotação.  
+
+### 🔹 Mutabilidade
+- **JavaScript/TypeScript**: `const` evita reatribuição, mas não impede mutações internas em objetos/arrays.  
+- **C**: tem `const`, mas usado de forma diferente (ex.: `const int x = 10;`).  
+- **Python**: não possui palavra-chave `const` para variáveis comuns, mas convenção usa maiúsculas para constantes (`PI = 3.14`).  

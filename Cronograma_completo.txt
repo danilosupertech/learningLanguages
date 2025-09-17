@@ -1,0 +1,380 @@
+# Cronograma de Estudos — Linguagens em Paralelo
+
+Carga: 6h/dia, segunda a sexta
+
+Cada dia cobre 2 tópicos originais (≈3h cada).
+
+Diretriz: a partir do Dia 15, todo exercício deve usar funções e, quando cabível, classes/structs.
+
+
+### Dia 1 — 17/09/2025
+
+- **Tópico:** Números e Strings Básicas
+
+  - **Objetivo esperado:**
+
+    - **Python:** usar int e float, realizar operações matemáticas, aplicar funções da biblioteca math e manipular strings com f-strings, slicing e métodos básicos.
+    - **C:** usar int, float e double, exibir resultados com printf e manipular strings com funções de <string.h> como strlen e strcpy.
+    - **JavaScript:** usar o tipo Number com operadores aritméticos, compreender limitações de precisão e manipular strings com template literals e métodos como toUpperCase.
+    - **TypeScript:** usar number, bigint e string com tipagem explícita, aplicar operadores básicos e template strings.
+- **Tópico:** Estruturas de Projeto e Listas/Arrays
+
+  - **Objetivo esperado:**
+
+    - **Python:** criar listas, acessar índices, adicionar e remover elementos, usar métodos como append, pop e sort.
+    - **C:** manipular arrays estáticos, acessar índices e percorrer com loops.
+    - **JavaScript:** usar arrays com métodos como push, pop, shift, unshift e sort.
+    - **TypeScript:** usar arrays tipados, aplicar métodos comuns e compreender generics simples.
+
+
+### Dia 2 — 18/09/2025
+
+- **Tópico:** Algoritmos Básicos em Listas
+
+  - **Objetivo esperado:**
+
+    - **Python:** criar listas, acessar índices, adicionar e remover elementos, usar métodos como append, pop e sort.
+    - **C:** manipular arrays estáticos, acessar índices e percorrer com loops.
+    - **JavaScript:** usar arrays com métodos como push, pop, shift, unshift e sort.
+    - **TypeScript:** usar arrays tipados, aplicar métodos comuns e compreender generics simples.
+- **Tópico:** Estruturas de Dados (Pilhas, Filas, Mapas)
+
+  - **Objetivo esperado:**
+
+    - **Python:** aplicar o conceito de Estruturas de Dados (Pilhas, Filas, Mapas) em Python.
+    - **C:** aplicar o conceito de Estruturas de Dados (Pilhas, Filas, Mapas) em C.
+    - **JavaScript:** aplicar o conceito de Estruturas de Dados (Pilhas, Filas, Mapas) em JavaScript.
+    - **TypeScript:** aplicar o conceito de Estruturas de Dados (Pilhas, Filas, Mapas) em TypeScript.
+
+
+### Dia 3 — 19/09/2025
+
+- **Tópico:** Conjuntos e Tuplas/Structs
+
+  - **Objetivo esperado:**
+
+    - **Python:** aplicar o conceito de Conjuntos e Tuplas/Structs em Python.
+    - **C:** aplicar o conceito de Conjuntos e Tuplas/Structs em C.
+    - **JavaScript:** aplicar o conceito de Conjuntos e Tuplas/Structs em JavaScript.
+    - **TypeScript:** aplicar o conceito de Conjuntos e Tuplas/Structs em TypeScript.
+- **Tópico:** Projeto 1 (Mini): Gerenciador de Lista de Compras
+
+  - **Objetivo esperado:**
+
+    - **Python:** implementar o Projeto 1 (Mini): Gerenciador de Lista de Compras em Python aplicando conceitos já vistos.
+    - **C:** implementar o Projeto 1 (Mini): Gerenciador de Lista de Compras em C, mesmo que em versão simplificada.
+    - **JavaScript:** implementar o Projeto 1 (Mini): Gerenciador de Lista de Compras em JavaScript com foco em praticidade.
+    - **TypeScript:** implementar o Projeto 1 (Mini): Gerenciador de Lista de Compras em TypeScript explorando tipagem segura.
+
+
+### Dia 4 — 22/09/2025
+
+- **Tópico:** Condicionais e Comparações
+
+  - **Objetivo esperado:**
+
+    - **Python:** aplicar o conceito de Condicionais e Comparações em Python.
+    - **C:** aplicar o conceito de Condicionais e Comparações em C.
+    - **JavaScript:** aplicar o conceito de Condicionais e Comparações em JavaScript.
+    - **TypeScript:** aplicar o conceito de Condicionais e Comparações em TypeScript.
+- **Tópico:** Loops e Padrões de Iteração
+
+  - **Objetivo esperado:**
+
+    - **Python:** aplicar o conceito de Loops e Padrões de Iteração em Python.
+    - **C:** aplicar o conceito de Loops e Padrões de Iteração em C.
+    - **JavaScript:** aplicar o conceito de Loops e Padrões de Iteração em JavaScript.
+    - **TypeScript:** aplicar o conceito de Loops e Padrões de Iteração em TypeScript.
+
+
+### Dia 5 — 23/09/2025
+
+- **Tópico:** Funções (definição, parâmetros, lambdas)
+
+  - **Objetivo esperado:**
+
+    - **Python:** aplicar o conceito de Funções (definição, parâmetros, lambdas) em Python.
+    - **C:** aplicar o conceito de Funções (definição, parâmetros, lambdas) em C.
+    - **JavaScript:** aplicar o conceito de Funções (definição, parâmetros, lambdas) em JavaScript.
+    - **TypeScript:** aplicar o conceito de Funções (definição, parâmetros, lambdas) em TypeScript.
+- **Tópico:** Escopo + Documentação
+
+  - **Objetivo esperado:**
+
+    - **Python:** aplicar o conceito de Escopo + Documentação em Python.
+    - **C:** aplicar o conceito de Escopo + Documentação em C.
+    - **JavaScript:** aplicar o conceito de Escopo + Documentação em JavaScript.
+    - **TypeScript:** aplicar o conceito de Escopo + Documentação em TypeScript.
+
+
+### Dia 6 — 24/09/2025
+
+- **Tópico:** Recursão e Iteração
+
+  - **Objetivo esperado:**
+
+    - **Python:** aplicar o conceito de Recursão e Iteração em Python.
+    - **C:** aplicar o conceito de Recursão e Iteração em C.
+    - **JavaScript:** aplicar o conceito de Recursão e Iteração em JavaScript.
+    - **TypeScript:** aplicar o conceito de Recursão e Iteração em TypeScript.
+- **Tópico:** Projeto 2 (Mini): Validador de Senhas
+
+  - **Objetivo esperado:**
+
+    - **Python:** implementar o Projeto 2 (Mini): Validador de Senhas em Python aplicando conceitos já vistos.
+    - **C:** implementar o Projeto 2 (Mini): Validador de Senhas em C, mesmo que em versão simplificada.
+    - **JavaScript:** implementar o Projeto 2 (Mini): Validador de Senhas em JavaScript com foco em praticidade.
+    - **TypeScript:** implementar o Projeto 2 (Mini): Validador de Senhas em TypeScript explorando tipagem segura.
+
+
+### Dia 7 — 25/09/2025
+
+- **Tópico:** Organização de Código (módulos, build, pacotes)
+
+  - **Objetivo esperado:**
+
+    - **Python:** aplicar o conceito de Organização de Código (módulos, build, pacotes) em Python.
+    - **C:** aplicar o conceito de Organização de Código (módulos, build, pacotes) em C.
+    - **JavaScript:** aplicar o conceito de Organização de Código (módulos, build, pacotes) em JavaScript.
+    - **TypeScript:** aplicar o conceito de Organização de Código (módulos, build, pacotes) em TypeScript.
+- **Tópico:** Entrada/Saída + Arquivos + JSON
+
+  - **Objetivo esperado:**
+
+    - **Python:** aplicar o conceito de Entrada/Saída + Arquivos + JSON em Python.
+    - **C:** aplicar o conceito de Entrada/Saída + Arquivos + JSON em C.
+    - **JavaScript:** aplicar o conceito de Entrada/Saída + Arquivos + JSON em JavaScript.
+    - **TypeScript:** aplicar o conceito de Entrada/Saída + Arquivos + JSON em TypeScript.
+
+
+### Dia 8 — 26/09/2025
+
+- **Tópico:** Argumentos de Linha de Comando + Filesystem
+
+  - **Objetivo esperado:**
+
+    - **Python:** aplicar o conceito de Argumentos de Linha de Comando + Filesystem em Python.
+    - **C:** aplicar o conceito de Argumentos de Linha de Comando + Filesystem em C.
+    - **JavaScript:** aplicar o conceito de Argumentos de Linha de Comando + Filesystem em JavaScript.
+    - **TypeScript:** aplicar o conceito de Argumentos de Linha de Comando + Filesystem em TypeScript.
+- **Tópico:** Tratamento de Erros + Testes
+
+  - **Objetivo esperado:**
+
+    - **Python:** aplicar o conceito de Tratamento de Erros + Testes em Python.
+    - **C:** aplicar o conceito de Tratamento de Erros + Testes em C.
+    - **JavaScript:** aplicar o conceito de Tratamento de Erros + Testes em JavaScript.
+    - **TypeScript:** aplicar o conceito de Tratamento de Erros + Testes em TypeScript.
+
+
+### Dia 9 — 29/09/2025
+
+- **Tópico:** Objetos e Classes
+
+  - **Objetivo esperado:**
+
+    - **Python:** aplicar o conceito de Objetos e Classes em Python.
+    - **C:** aplicar o conceito de Objetos e Classes em C.
+    - **JavaScript:** aplicar o conceito de Objetos e Classes em JavaScript.
+    - **TypeScript:** aplicar o conceito de Objetos e Classes em TypeScript.
+- **Tópico:** Projeto 3 (Pequeno): Agenda de Contatos
+
+  - **Objetivo esperado:**
+
+    - **Python:** implementar o Projeto 3 (Pequeno): Agenda de Contatos em Python aplicando conceitos já vistos.
+    - **C:** implementar o Projeto 3 (Pequeno): Agenda de Contatos em C, mesmo que em versão simplificada.
+    - **JavaScript:** implementar o Projeto 3 (Pequeno): Agenda de Contatos em JavaScript com foco em praticidade.
+    - **TypeScript:** implementar o Projeto 3 (Pequeno): Agenda de Contatos em TypeScript explorando tipagem segura.
+
+
+### Dia 10 — 30/09/2025
+
+- **Tópico:** Projeto 3 (Pequeno): Agenda de Contatos
+
+  - **Objetivo esperado:**
+
+    - **Python:** implementar o Projeto 3 (Pequeno): Agenda de Contatos em Python aplicando conceitos já vistos.
+    - **C:** implementar o Projeto 3 (Pequeno): Agenda de Contatos em C, mesmo que em versão simplificada.
+    - **JavaScript:** implementar o Projeto 3 (Pequeno): Agenda de Contatos em JavaScript com foco em praticidade.
+    - **TypeScript:** implementar o Projeto 3 (Pequeno): Agenda de Contatos em TypeScript explorando tipagem segura.
+- **Tópico:** Abstração e Tipagem (Polimorfismo, Genéricos, Imutabilidade)
+
+  - **Objetivo esperado:**
+
+    - **Python:** aplicar o conceito de Abstração e Tipagem (Polimorfismo, Genéricos, Imutabilidade) em Python.
+    - **C:** aplicar o conceito de Abstração e Tipagem (Polimorfismo, Genéricos, Imutabilidade) em C.
+    - **JavaScript:** aplicar o conceito de Abstração e Tipagem (Polimorfismo, Genéricos, Imutabilidade) em JavaScript.
+    - **TypeScript:** aplicar o conceito de Abstração e Tipagem (Polimorfismo, Genéricos, Imutabilidade) em TypeScript.
+
+
+### Dia 11 — 01/10/2025
+
+- **Tópico:** Iteradores + Geradores + Compreensões
+
+  - **Objetivo esperado:**
+
+    - **Python:** aplicar o conceito de Iteradores + Geradores + Compreensões em Python.
+    - **C:** aplicar o conceito de Iteradores + Geradores + Compreensões em C.
+    - **JavaScript:** aplicar o conceito de Iteradores + Geradores + Compreensões em JavaScript.
+    - **TypeScript:** aplicar o conceito de Iteradores + Geradores + Compreensões em TypeScript.
+- **Tópico:** Manipulação de Dados (datas, regex, estatística)
+
+  - **Objetivo esperado:**
+
+    - **Python:** aplicar o conceito de Manipulação de Dados (datas, regex, estatística) em Python.
+    - **C:** aplicar o conceito de Manipulação de Dados (datas, regex, estatística) em C.
+    - **JavaScript:** aplicar o conceito de Manipulação de Dados (datas, regex, estatística) em JavaScript.
+    - **TypeScript:** aplicar o conceito de Manipulação de Dados (datas, regex, estatística) em TypeScript.
+
+
+### Dia 12 — 02/10/2025
+
+- **Tópico:** Redes e Processos (HTTP cliente/servidor, CLI)
+
+  - **Objetivo esperado:**
+
+    - **Python:** aplicar o conceito de Redes e Processos (HTTP cliente/servidor, CLI) em Python.
+    - **C:** aplicar o conceito de Redes e Processos (HTTP cliente/servidor, CLI) em C.
+    - **JavaScript:** aplicar o conceito de Redes e Processos (HTTP cliente/servidor, CLI) em JavaScript.
+    - **TypeScript:** aplicar o conceito de Redes e Processos (HTTP cliente/servidor, CLI) em TypeScript.
+- **Tópico:** Concorrência + Performance
+
+  - **Objetivo esperado:**
+
+    - **Python:** aplicar o conceito de Concorrência + Performance em Python.
+    - **C:** aplicar o conceito de Concorrência + Performance em C.
+    - **JavaScript:** aplicar o conceito de Concorrência + Performance em JavaScript.
+    - **TypeScript:** aplicar o conceito de Concorrência + Performance em TypeScript.
+
+
+### Dia 13 — 03/10/2025
+
+- **Tópico:** Projeto 4 (Intermediário): Mini-API de Tarefas
+
+  - **Objetivo esperado:**
+
+    - **Python:** implementar o Projeto 4 (Intermediário): Mini-API de Tarefas em Python aplicando conceitos já vistos.
+    - **C:** implementar o Projeto 4 (Intermediário): Mini-API de Tarefas em C, mesmo que em versão simplificada.
+    - **JavaScript:** implementar o Projeto 4 (Intermediário): Mini-API de Tarefas em JavaScript com foco em praticidade.
+    - **TypeScript:** implementar o Projeto 4 (Intermediário): Mini-API de Tarefas em TypeScript explorando tipagem segura.
+- **Tópico:** Projeto 4 (Intermediário): Mini-API de Tarefas
+
+  - **Objetivo esperado:**
+
+    - **Python:** implementar o Projeto 4 (Intermediário): Mini-API de Tarefas em Python aplicando conceitos já vistos.
+    - **C:** implementar o Projeto 4 (Intermediário): Mini-API de Tarefas em C, mesmo que em versão simplificada.
+    - **JavaScript:** implementar o Projeto 4 (Intermediário): Mini-API de Tarefas em JavaScript com foco em praticidade.
+    - **TypeScript:** implementar o Projeto 4 (Intermediário): Mini-API de Tarefas em TypeScript explorando tipagem segura.
+
+
+### Dia 14 — 06/10/2025
+
+- **Tópico:** Memória, Distribuição e Configuração
+
+  - **Objetivo esperado:**
+
+    - **Python:** aplicar o conceito de Memória, Distribuição e Configuração em Python.
+    - **C:** aplicar o conceito de Memória, Distribuição e Configuração em C.
+    - **JavaScript:** aplicar o conceito de Memória, Distribuição e Configuração em JavaScript.
+    - **TypeScript:** aplicar o conceito de Memória, Distribuição e Configuração em TypeScript.
+- **Tópico:** Projeto 5 (Intermediário): Jogo da Forca
+
+  - **Objetivo esperado:**
+
+    - **Python:** implementar o Projeto 5 (Intermediário): Jogo da Forca em Python aplicando conceitos já vistos.
+    - **C:** implementar o Projeto 5 (Intermediário): Jogo da Forca em C, mesmo que em versão simplificada.
+    - **JavaScript:** implementar o Projeto 5 (Intermediário): Jogo da Forca em JavaScript com foco em praticidade.
+    - **TypeScript:** implementar o Projeto 5 (Intermediário): Jogo da Forca em TypeScript explorando tipagem segura.
+
+
+### Dia 15 — 07/10/2025
+
+- **Tópico:** Projeto 5 (Intermediário): Jogo da Forca
+
+  - **Objetivo esperado:**
+
+    - **Python:** implementar o Projeto 5 (Intermediário): Jogo da Forca em Python aplicando conceitos já vistos.
+    - **C:** implementar o Projeto 5 (Intermediário): Jogo da Forca em C, mesmo que em versão simplificada.
+    - **JavaScript:** implementar o Projeto 5 (Intermediário): Jogo da Forca em JavaScript com foco em praticidade.
+    - **TypeScript:** implementar o Projeto 5 (Intermediário): Jogo da Forca em TypeScript explorando tipagem segura.
+- **Tópico:** Projeto 6 (Intermediário): CLI Calculadora Avançada
+
+  - **Objetivo esperado:**
+
+    - **Python:** implementar o Projeto 6 (Intermediário): CLI Calculadora Avançada em Python aplicando conceitos já vistos.
+    - **C:** implementar o Projeto 6 (Intermediário): CLI Calculadora Avançada em C, mesmo que em versão simplificada.
+    - **JavaScript:** implementar o Projeto 6 (Intermediário): CLI Calculadora Avançada em JavaScript com foco em praticidade.
+    - **TypeScript:** implementar o Projeto 6 (Intermediário): CLI Calculadora Avançada em TypeScript explorando tipagem segura.
+
+
+### Dia 16 — 08/10/2025
+
+- **Tópico:** Projeto 6 (Intermediário): CLI Calculadora Avançada
+
+  - **Objetivo esperado:**
+
+    - **Python:** implementar o Projeto 6 (Intermediário): CLI Calculadora Avançada em Python aplicando conceitos já vistos.
+    - **C:** implementar o Projeto 6 (Intermediário): CLI Calculadora Avançada em C, mesmo que em versão simplificada.
+    - **JavaScript:** implementar o Projeto 6 (Intermediário): CLI Calculadora Avançada em JavaScript com foco em praticidade.
+    - **TypeScript:** implementar o Projeto 6 (Intermediário): CLI Calculadora Avançada em TypeScript explorando tipagem segura.
+- **Tópico:** Projeto 7 (Avançado): Mini-Shell (C/42)
+
+  - **Objetivo esperado:**
+
+    - **Python:** implementar o Projeto 7 (Avançado): Mini-Shell (C/42) em Python aplicando conceitos já vistos.
+    - **C:** implementar o Projeto 7 (Avançado): Mini-Shell (C/42) em C, mesmo que em versão simplificada.
+    - **JavaScript:** implementar o Projeto 7 (Avançado): Mini-Shell (C/42) em JavaScript com foco em praticidade.
+    - **TypeScript:** implementar o Projeto 7 (Avançado): Mini-Shell (C/42) em TypeScript explorando tipagem segura.
+
+
+### Dia 17 — 09/10/2025
+
+- **Tópico:** Projeto 7 (Avançado): Mini-Shell (C/42)
+
+  - **Objetivo esperado:**
+
+    - **Python:** implementar o Projeto 7 (Avançado): Mini-Shell (C/42) em Python aplicando conceitos já vistos.
+    - **C:** implementar o Projeto 7 (Avançado): Mini-Shell (C/42) em C, mesmo que em versão simplificada.
+    - **JavaScript:** implementar o Projeto 7 (Avançado): Mini-Shell (C/42) em JavaScript com foco em praticidade.
+    - **TypeScript:** implementar o Projeto 7 (Avançado): Mini-Shell (C/42) em TypeScript explorando tipagem segura.
+- **Tópico:** Projeto 7 (Avançado): Mini-Shell (C/42)
+
+  - **Objetivo esperado:**
+
+    - **Python:** implementar o Projeto 7 (Avançado): Mini-Shell (C/42) em Python aplicando conceitos já vistos.
+    - **C:** implementar o Projeto 7 (Avançado): Mini-Shell (C/42) em C, mesmo que em versão simplificada.
+    - **JavaScript:** implementar o Projeto 7 (Avançado): Mini-Shell (C/42) em JavaScript com foco em praticidade.
+    - **TypeScript:** implementar o Projeto 7 (Avançado): Mini-Shell (C/42) em TypeScript explorando tipagem segura.
+
+
+### Dia 18 — 10/10/2025
+
+- **Tópico:** Projeto 8 (Avançado): Chat em Tempo Real
+
+  - **Objetivo esperado:**
+
+    - **Python:** implementar o Projeto 8 (Avançado): Chat em Tempo Real em Python aplicando conceitos já vistos.
+    - **C:** implementar o Projeto 8 (Avançado): Chat em Tempo Real em C, mesmo que em versão simplificada.
+    - **JavaScript:** implementar o Projeto 8 (Avançado): Chat em Tempo Real em JavaScript com foco em praticidade.
+    - **TypeScript:** implementar o Projeto 8 (Avançado): Chat em Tempo Real em TypeScript explorando tipagem segura.
+- **Tópico:** Projeto 8 (Avançado): Chat em Tempo Real
+
+  - **Objetivo esperado:**
+
+    - **Python:** implementar o Projeto 8 (Avançado): Chat em Tempo Real em Python aplicando conceitos já vistos.
+    - **C:** implementar o Projeto 8 (Avançado): Chat em Tempo Real em C, mesmo que em versão simplificada.
+    - **JavaScript:** implementar o Projeto 8 (Avançado): Chat em Tempo Real em JavaScript com foco em praticidade.
+    - **TypeScript:** implementar o Projeto 8 (Avançado): Chat em Tempo Real em TypeScript explorando tipagem segura.
+
+
+### Dia 19 — 13/10/2025
+
+- **Tópico:** Projeto 8 (Avançado): Chat em Tempo Real
+
+  - **Objetivo esperado:**
+
+    - **Python:** implementar o Projeto 8 (Avançado): Chat em Tempo Real em Python aplicando conceitos já vistos.
+    - **C:** implementar o Projeto 8 (Avançado): Chat em Tempo Real em C, mesmo que em versão simplificada.
+    - **JavaScript:** implementar o Projeto 8 (Avançado): Chat em Tempo Real em JavaScript com foco em praticidade.
+    - **TypeScript:** implementar o Projeto 8 (Avançado): Chat em Tempo Real em TypeScript explorando tipagem segura.
+
