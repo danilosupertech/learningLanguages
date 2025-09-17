@@ -1,0 +1,14 @@
+﻿# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Logs / tests
+*.log
+.pytest_cache/
+.coverage

@@ -4,29 +4,48 @@ Este guia mostra o **passo a passo mais simples possível** para criar ambientes
 
 ---
 
-## Script de Automação
+## Automação com Scripts
 
-Você pode configurar tudo de uma vez usando o script [`setup_dev_envs.sh`](setup_dev_envs.sh).
+Você pode configurar tudo automaticamente de duas formas:
 
-### Uso:
+### 1) Windows (PowerShell)
+Use o script [`setup_dev_envs.ps1`](setup_dev_envs.ps1).
+```
+ powershell -ExecutionPolicy Bypass -File .\setup_dev_envs.ps1
+```
+
+#### Uso no PowerShell:
+```powershell
+Set-ExecutionPolicy -Scope Process Bypass -Force
+.\setup_dev_envs.ps1
+```
+
+Isso criará a pasta `ambientes-dev/` no diretório atual com subpastas:
+- `python/` (venv + main.py)
+- `javascript/` (npm init + index.js)
+- `typescript/` (npm init + ts-node + index.ts)
+- `c/` (main.c + build.bat)
+
+### 2) Linux/macOS (Shell)
+Use o script [`setup_dev_envs.sh`](setup_dev_envs.sh).
+
+#### Uso no terminal:
 ```bash
 chmod +x setup_dev_envs.sh
 ./setup_dev_envs.sh
 ```
 
-Isso criará automaticamente a pasta `~/ambientes-dev/` com subpastas:
-- `python/`
-- `javascript/`
-- `typescript/`
-- `c/`
-
-Cada uma já vem com um código de exemplo e configuração mínima.
+Isso criará a pasta `~/ambientes-dev/` com subpastas semelhantes.
 
 ---
 
-## Python
+## Passo a passo manual
 
-### Instalação
+Se preferir, você pode configurar manualmente os ambientes.  
+
+### Python
+
+**Instalação**
 - **Windows**: baixe Python 3 no site oficial e marque "Add Python to PATH".
 - **macOS**: `brew install python`
 - **Ubuntu/Debian**: 
@@ -34,7 +53,7 @@ Cada uma já vem com um código de exemplo e configuração mínima.
   sudo apt update && sudo apt install -y python3 python3-venv python3-pip
   ```
 
-### Criar ambiente e rodar
+**Criar ambiente e rodar**
 ```bash
 mkdir projeto-python && cd projeto-python
 python -m venv .venv
@@ -49,14 +68,14 @@ python main.py
 
 ---
 
-## JavaScript (Node.js)
+### JavaScript (Node.js)
 
-### Instalação
+**Instalação**
 - Instale **Node.js LTS** do site oficial.
 - **macOS**: `brew install node`
 - **Ubuntu/Debian**: `sudo apt install -y nodejs npm`
 
-### Criar projeto e rodar
+**Criar projeto e rodar**
 ```bash
 mkdir projeto-js && cd projeto-js
 npm init -y
@@ -67,9 +86,9 @@ node src/index.js
 
 ---
 
-## TypeScript
+### TypeScript
 
-### Criar projeto e rodar
+**Criar projeto e rodar**
 ```bash
 mkdir projeto-ts && cd projeto-ts
 npm init -y
@@ -85,9 +104,9 @@ npx ts-node src/index.ts
 
 ---
 
-## Linguagem C (42 style)
+### Linguagem C (42 style)
 
-### Instalação do compilador
+**Instalação do compilador**
 - **Windows (WSL)**:
   ```powershell
   wsl --install
@@ -99,7 +118,7 @@ npx ts-node src/index.ts
 - **macOS**: `xcode-select --install`
 - **Ubuntu/Debian**: `sudo apt update && sudo apt install -y build-essential gdb`
 
-### Criar e rodar
+**Criar e rodar**
 ```bash
 mkdir projeto-c && cd projeto-c
 

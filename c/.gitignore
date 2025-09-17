@@ -1,0 +1,11 @@
+﻿# Build
+*.o
+*.exe
+*.out
+*.obj
+*.dll
+*.so
+*.dylib
+
+# Generated binary
+app
