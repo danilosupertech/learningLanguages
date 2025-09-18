@@ -36,11 +36,4 @@
 - **Objetivo:** inverter uma string digitada pelo usuário.
 - **Recursos permitidos:** `.split("")`, `.reverse()`, `.join("")`.
 
-## 09_boletim_escolar.ts
-- **Objetivo:** ler três notas e o nome do aluno, calcular a média e exibir resultado formatado.
-- **Recursos permitidos:** template strings, `parseFloat`.
-- **Extras:** tipar variáveis (`string`, `number`).
 
-## 10_conversor_personalizado.ts
-- **Objetivo:** converter Celsius para Fahrenheit e exibir mensagem personalizada.
-- **Recursos permitidos:** operadores aritméticos, template strings.
