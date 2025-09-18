@@ -92,9 +92,3 @@
 
 - **Recursos permitidos:** `input()`, `float()`, operadores aritméticos, f-strings.
 
-- ```
-30 graus Celsius equivalem a 86 graus Fahrenheit
-```
-
-
----

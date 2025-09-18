@@ -1,9 +1,5 @@
 class Calculadora:
-    
-    # def __init__(self, palavra):
-    #     self._contador = 0
-    #     self._palavra = palavra
-    
+   
     def ft_strlen(self, palavra : str) -> int:
         contador = 0
       

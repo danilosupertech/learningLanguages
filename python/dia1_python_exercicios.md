@@ -84,11 +84,6 @@
 
 - **Recursos permitidos:** `input()`, `float()`, operadores aritméticos, f-strings.
 
-- ```
-A média de João foi 8.0
-```
-
-
 ---
 
 ## 10_conversor_personalizado.py
@@ -97,9 +92,3 @@ A média de João foi 8.0
 
 - **Recursos permitidos:** `input()`, `float()`, operadores aritméticos, f-strings.
 
-- ```
-30 graus Celsius equivalem a 86 graus Fahrenheit
-```
-
-
----
