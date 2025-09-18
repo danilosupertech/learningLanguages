@@ -1,0 +1,15 @@
+{
+  "name": "dia1",
+  "version": "1.0.0",
+  "description": "Este arquivo cobre os principais conceitos usados na lista de exercícios de JavaScript.",
+  "main": "01_operacoes_basicas.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

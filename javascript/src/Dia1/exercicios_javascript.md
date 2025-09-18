@@ -33,10 +33,3 @@
 - **Objetivo:** inverter uma string digitada pelo usuário.
 - **Recursos permitidos:** `.split("")`, `.reverse()`, `.join("")`.
 
-## 09_boletim_escolar.js
-- **Objetivo:** ler três notas e o nome do aluno, calcular a média e exibir resultado formatado.
-- **Recursos permitidos:** `prompt()`, `parseFloat`, template strings.
-
-## 10_conversor_personalizado.js
-- **Objetivo:** converter Celsius para Fahrenheit e exibir mensagem personalizada.
-- **Recursos permitidos:** operadores aritméticos, template strings.

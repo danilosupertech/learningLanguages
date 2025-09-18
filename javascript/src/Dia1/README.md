@@ -72,3 +72,90 @@ console.log(`Olá, ${nome}!`);
 - Divisão: `/`
 - Resto: `%`
 - Potência: `**`
+
+
+
+## 🔹 Entrada de Dados
+
+### 📍 Navegador
+O método **`prompt()`** está disponível apenas em navegadores.  
+Ele abre uma caixa de diálogo para o usuário digitar algo.
+
+Exemplo:
+```js
+let nome = prompt("Digite seu nome:");
+console.log("Olá, " + nome);
+```
+
+### 📍 Node.js
+No Node.js o `prompt()` **não existe**.  
+As alternativas mais comuns são:
+
+- **prompt-sync** (biblioteca externa, simples de usar).
+- **readline** (módulo nativo do Node.js, já vem sem precisar instalar).
+
+---
+
+### 🔹 Comparativo
+
+| Método        | Ambiente     | Instalação necessária | Simplicidade |
+|---------------|-------------|-----------------------|--------------|
+| `prompt()`    | Navegador   | ❌                   | ✅ Muito simples |
+| `prompt-sync` | Node.js     | ✅ (`npm install`)   | ✅ Simples |
+| `readline`    | Node.js     | ❌ (já vem incluso)   | ⚠️ Mais verboso |
+
+---
+
+### 🔹 Exemplo com prompt-sync
+```js
+const prompt = require("prompt-sync")();
+
+let nota1 = parseFloat(prompt("Digite a primeira nota: "));
+let nota2 = parseFloat(prompt("Digite a segunda nota: "));
+let media = (nota1 + nota2) / 2;
+
+console.log("Média: " + media);
+```
+
+---
+
+### 🔹 Exemplo com readline
+```js
+const readline = require("readline");
+
+// Criando interface para leitura
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+// Lendo valores de forma assíncrona
+rl.question("Digite a primeira nota: ", (n1) => {
+  rl.question("Digite a segunda nota: ", (n2) => {
+    let media = (parseFloat(n1) + parseFloat(n2)) / 2;
+    console.log("Média: " + media);
+    rl.close();
+  });
+});
+```
+
+⚠️ Note que com `readline` precisamos lidar com **callbacks**, o que deixa o código mais longo.  
+
+---
+
+## 🔹 Conversão Numérica
+Quando usamos `prompt()` ou `readline`, os valores digitados chegam como **string**.  
+Para trabalhar corretamente em operações matemáticas, precisamos converter:
+
+- `parseInt("10")` → converte para inteiro (`10`)
+- `parseFloat("10.5")` → converte para decimal (`10.5`)
+- `Number("20")` → conversão genérica
+
+Exemplo:
+```js
+let valor = "10.5";
+valor = parseFloat(valor);
+console.log(valor + 5); // 15.5
+```
+
+---
