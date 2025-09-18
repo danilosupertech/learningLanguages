@@ -75,20 +75,3 @@
 
 - **Recursos permitidos:** slicing (`[::-1]`).
 
-
----
-
-## 09_boletim_escolar.py
-
-- **Objetivo:** ler três notas e o nome do aluno, calcular a média e exibir resultado formatado.
-
-- **Recursos permitidos:** `input()`, `float()`, operadores aritméticos, f-strings.
-
----
-
-## 10_conversor_personalizado.py
-
-- **Objetivo:** converter Celsius para Fahrenheit e exibir mensagem personalizada.
-
-- **Recursos permitidos:** `input()`, `float()`, operadores aritméticos, f-strings.
-

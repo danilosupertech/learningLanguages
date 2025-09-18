@@ -39,6 +39,13 @@
 
 - Fórmula: `M = C * (1 + i * t)`.
 
+Onde:
+
+`
+M = montante (valor final depois dos juros)
+C = capital inicial (valor investido/emprestado)
+i = taxa de juros (em forma decimal → ex: 5% = 0.05)
+t = tempo (na mesma unidade da taxa: se a taxa é ao mês, t é em meses)`
 
 ---
 
@@ -74,21 +81,4 @@
 - **Objetivo:** inverter uma string digitada pelo usuário.
 
 - **Recursos permitidos:** slicing (`[::-1]`).
-
-
----
-
-## 09_boletim_escolar.py
-
-- **Objetivo:** ler três notas e o nome do aluno, calcular a média e exibir resultado formatado.
-
-- **Recursos permitidos:** `input()`, `float()`, operadores aritméticos, f-strings.
-
----
-
-## 10_conversor_personalizado.py
-
-- **Objetivo:** converter Celsius para Fahrenheit e exibir mensagem personalizada.
-
-- **Recursos permitidos:** `input()`, `float()`, operadores aritméticos, f-strings.
 
