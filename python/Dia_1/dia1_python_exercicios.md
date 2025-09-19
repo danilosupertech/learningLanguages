@@ -1,84 +1,94 @@
-# 🐍 Lista de Exercícios — Dia 1 (Python)
+# 🐍 Lista de Exercícios — Dia 2 (Python)
 
-## 01_operacoes_basicas.py
+## 01_listas_basico.py
 
-- **Objetivo:** realizar operações matemáticas básicas (soma, subtração, multiplicação, divisão, divisão inteira, resto, potência).
+- **Objetivo:** criar uma lista com 5 números e exibir o primeiro e o último elemento.
 
-- **Recursos permitidos:** operadores aritméticos básicos (`+`, `-`, `*`, `/`, `//`, `%`, `**`).
+- **Recursos permitidos:** listas (`list`), indexação (`[ ]`).
 
-- valores fixos no código.
-- **Saída esperada:** exibir todos os resultados.
-
-
----
-
-## 02_media_valores.py
-
-- **Objetivo:** calcular a média de três notas informadas pelo usuário.
-
-- **Recursos permitidos:** `input()`, `float()`, operadores aritméticos.
+- **Dicas:**
+  - Lembre-se que índices começam em `0`.
+  - O último elemento pode ser acessado por índice negativo: `lista[-1]`.
 
 ---
 
-## 03_conversao_temperatura.py
+## 02_lista_append.py
 
-- **Objetivo:** converter Fahrenheit para Celsius.
+- **Objetivo:** adicionar um número ao final da lista.
 
-- **Recursos permitidos:** `input()`, `float()`, operadores aritméticos.
+- **Recursos permitidos:** método `.append()`.
 
-- Fórmula: `C = (F - 32) * 5/9`.
-
-
----
-
-## 04_juros_simples.py
-
-- **Objetivo:** calcular o montante com juros simples.
-
-- **Recursos permitidos:** variáveis, operadores aritméticos, `print()`.
-
-- Fórmula: `M = C * (1 + i * t)`.
-
-Onde:
-
-`
-M = montante (valor final depois dos juros)
-C = capital inicial (valor investido/emprestado)
-i = taxa de juros (em forma decimal → ex: 5% = 0.05)
-t = tempo (na mesma unidade da taxa: se a taxa é ao mês, t é em meses)`
+- **Dicas:**
+  - `.append()` insere o item no **fim** da lista.
+  - Você pode verificar o resultado imprimindo a lista inteira.
 
 ---
 
-## 05_nome_completo.py
+## 03_lista_pop.py
 
-- **Objetivo:** ler nome e sobrenome, exibir nome completo.
+- **Objetivo:** remover o último número da lista e exibir o resultado.
 
-- **Recursos permitidos:** `input()`, concatenação, f-strings.
+- **Recursos permitidos:** método `.pop()`.
 
-
----
-
-## 06_maiusculas_minusculas.py
-
-- **Objetivo:** transformar uma string em maiúsculas e minúsculas.
-
-- **Recursos permitidos:** métodos `.upper()`, `.lower()`.
-
+- **Dicas:**
+  - `.pop()` retorna o elemento removido → você pode armazená-lo em uma variável.
+  - Após o `pop`, a lista fica com um elemento a menos.
 
 ---
 
-## 07_contar_caracteres.py
+## 04_lista_sort.py
 
-- **Objetivo:** contar quantos caracteres existem em uma palavra.
+- **Objetivo:** ordenar a lista em ordem crescente.
 
-- **Recursos permitidos:** `input()`, `len()`.
+- **Recursos permitidos:** método `.sort()`.
 
+- **Dicas:**
+  - `.sort()` altera a lista original.
+  - Para uma nova lista ordenada sem alterar a original, use `sorted(lista)`.
 
 ---
 
-## 08_inverter_string.py
+## 05_pilha.py
 
-- **Objetivo:** inverter uma string digitada pelo usuário.
+- **Objetivo:** implementar uma pilha usando lista.
 
-- **Recursos permitidos:** slicing (`[::-1]`).
+- **Recursos permitidos:** `.append()` (push) e `.pop()` (pop).
 
+- **Dicas:**
+  - Pilha segue a lógica **LIFO** (*Last In, First Out*).
+  - Exemplo: empilhar valores `1, 2, 3` → `pop()` retorna `3`.
+
+---
+
+## 06_fila.py
+
+- **Objetivo:** implementar uma fila.
+
+- **Recursos permitidos:** `collections.deque`.
+
+- **Dicas:**
+  - Fila segue a lógica **FIFO** (*First In, First Out*).
+  - Use `.append()` para enfileirar e `.popleft()` para desenfileirar.
+  - `deque` é mais eficiente que listas para operações em filas.
+
+---
+
+## 07_dicionario.py
+
+- **Objetivo:** criar um dicionário para mapear nomes de alunos às suas notas.
+
+- **Recursos permitidos:** `dict`, acesso por chave.
+
+- **Dicas:**
+  - Um `dict` é composto de pares `chave: valor`.
+  - Exemplo: `{"Maria": 8.5, "João": 7.0}`.
+  - Acesse uma nota com `dicionario["Maria"]`.
+
+---
+
+## 📌 Particularidades do Python
+
+- `list` é dinâmica e pode armazenar diferentes tipos.  
+- `dict` é altamente otimizado para acesso rápido.  
+- `collections.deque` deve ser usado para filas por eficiência.  
+- Índices negativos em listas são muito úteis (`lista[-1]` = último item).  
